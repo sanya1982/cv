@@ -8,16 +8,24 @@
 </head>
 
 <body>
-    <a href="english.html" title="English">Read in English</a>
-    <h1>Резюме: Олександр Пилипенко</h1>
+    <header>
+        <a href="english.html" title="English">Read in English</a>
+        <ul>
+            <li><a href="#about">Про мене</a></li>
+            <li><a href="#skills">Навички</a></li>
+            <li><a href="#Additionally">Додатково</a></li>
+            <li><a href="#goal">Ціль</a></li>
+        </ul>
+    </header>
+    <section>
+        <h1>Резюме: Олександр Пилипенко</h1>
     <img src="img/5220093167431446969.jpg" alt="Моє фото">
     <h2>Початківець Front-End Developer</h2>
-    <p>Україна &#10026 <a href="mailto:oleksandr.pylypenko14@gmail.com">oleksandr.pylypenko14@gmail.com</a> &#10026 <a
-            href="https://github.com/sanya1982">GitHub</a></p>
-    <h3>Про мене</h3>
+    <address>Україна &#10026 <a href="mailto:oleksandr.pylypenko14@gmail.com">oleksandr.pylypenko14@gmail.com</a> &#10026 <a href="https://github.com/sanya1982">GitHub</a></address>
+    <h3 id="about">Про мене</h3>
     <p>Мотивований початківець Front-End розробник. Вивчаю HTML, CSS та JavaScript. Прагну розвиватися у сфері
         веброзробки до рівня Fullstack Developer та брати участь у створенні сучасних і зручних вебрішень.</p>
-    <h3>Навички</h3>
+    <h3 id="skills">Навички</h3>
     <ul>
         <li>Базові знання HTML5, CSS3</li>
         <li>Основи JavaScript</li>
@@ -26,15 +34,34 @@
         <li>Робота з Git</li>
         <li>Англійська — A2–B1</li>
     </ul>
-    <h3>Додатково</h3>
+    <h3 id="Additionally">Додатково</h3>
     <ol>
         <li>Відкритий до навчання та командної роботи</li>
         <li>Готовий працювати над реальними проєктами для розвитку навичок</li>
         <li>Шукаю першу можливість у сфері ІТ для старту кар’єри</li>
     </ol>
-    <h3>Ціль</h3>
+    <h3 id="goal">Ціль</h3>
     <p>Отримати позицію <strong>Junior Front-End Developer</strong>, щоб розвиватися до рівня <strong>Fullstack</strong>
         та робити внесок у сучасні ІТ-проєкти.</p>
+    </section>
+    <section>
+        <h2>Англомовна версія резюме.</h2>
+    <iframe src="english.html" width="600" height="400" title="CV"></iframe>
+    <h3 id="contact">Запитання та коментарі</h3>
+    <form action="mailto:oleksandr.pylypenko14@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Ім'я:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="question">Питання:</label><br>
+        <textarea id="question" name="question" rows="4" required></textarea><br>
+        <button type="submit">Надіслати</button>
+         <br>
+         <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dEBVe8Ij7JU?si=AcsYHS5aT_Fz-BHX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    </section>
+    
 </body>
 
 </html>
